@@ -151,7 +151,12 @@ const directives = ref([
     description: '监听元素的尺寸变化，并在尺寸变化时触发回调函数',
     link: '/vuedir/directives/boxresize',
     category: '交互类'
-  }
+  },{
+    name:'v-verify',
+    description: '用于表单验证，支持自定义验证规则和错误提示',
+    link: '/vuedir/directives/verify',
+    category: '表单类'
+  },
 ]);
 
 const categories = {
